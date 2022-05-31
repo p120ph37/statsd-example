@@ -1,0 +1,10 @@
+{
+    "redhat.telemetry.enabled": false,
+    "git.autofetch": "all",
+    "git.allowForcePush": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modificationsIfAvailable",
+    "prettier.requireConfig": false,
+    "prettier.insertPragma": false,
+    "prettier.requirePragma": false
+}

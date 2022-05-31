@@ -1,0 +1,17 @@
+# Gitpod config
+# (see https://www.gitpod.io/docs/config-gitpod-file)
+
+image: gitpod/workspace-java-17
+tasks:
+  - init: ./gradlew build
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack
+    - redhat.java
+    - vscjava.vscode-java-debug
+    - vscjava.vscode-java-dependency
+    - vscjava.vscode-java-test
+    - richardwillis.vscode-gradle
+    - eamodio.gitlens
+    - alphabotsec.vscode-eclipse-keybindings
+    - SonarSource.sonarlint-vscode
